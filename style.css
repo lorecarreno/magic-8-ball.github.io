@@ -1,0 +1,147 @@
+html {
+  height: 100%;
+  background: linear-gradient(
+      to right top,
+      #454545,
+      #635167,
+      #945579,
+      #ee3547,
+      #f16059
+    )
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  padding-top: 0.25em;
+  text-align: center;
+}
+
+header h1 {
+  color: #f8f8f8;
+}
+
+header span {
+  font-size: 60px;
+  color: #f16059;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.ball,
+.button {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.answer {
+  position: absolute;
+  width: 14%;
+  top: 50%;
+  left: 53%;
+  margin-top: -60px;
+  margin-left: -65px;
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+  color: #f8f8f8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#questionButton {
+  font: 26px "Montserrat", Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #f8f8f8;
+  font-weight: bold;
+  background-color: #ee3547;
+  padding: 10px 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  color: #f8f8f8;
+}
+
+/* Style for Mobile */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .ball,
+  .button {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+  }
+}
+
+/* Extra-small devices */
+@media only screen and (max-device-width: 360px) {
+  .ball,
+  .button {
+    width: 90%;
+  }
+}
+
+/* iPhone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ball,
+  .button {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ball,
+  .button {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+  }
+
+  .answer {
+    left: 58%;
+  }
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ball,
+  .button {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+  }
+
+  .answer {
+    left: 58%;
+  }
+}
